@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Palanquin Dark', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: black; 
+}
+body{
+    background-color: rgb(240, 240, 240);  
+}
+.mainCard{
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.upperPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.userTaskInput{
+    padding-left: 10px;
+    background-color: rgb(240, 240, 240);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+.taskAddButton{
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+.lowerCard{
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    margin: 10px;
+}
+.what{
+    padding: 10px;
+}
+.taskText{
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.doneButton{
+    background-color: rgb(0, 255, 0, 0.5);
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.deletButton{
+    background-color: rgb(255, 0, 0, .5);
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.deletIcon{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
